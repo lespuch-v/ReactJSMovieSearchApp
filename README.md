@@ -1,1 +1,1 @@
-# ReactJSMovieSearchApp
+# ReactJS - MovieSearchApp
