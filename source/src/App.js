@@ -10,7 +10,6 @@ function App() {
 
   const searchForMovies = async (e) => {
     e.preventDefault();
-      console.log("Processing... FROM APP");
       const APIKEY = "da420b86771b9f3c36fb68be17477680";
       // const query = "Batman";
       const URL = `https://api.themoviedb.org/3/search/movie?api_key=${APIKEY}&query=${query}`;
@@ -24,7 +23,6 @@ function App() {
       this.setState({ inputValue: event.target.value });
     }
 }
-  console.log(movie);
 
   return (
     <div className="App">
