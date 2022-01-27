@@ -57,14 +57,14 @@ button {
   font-size: 2.1rem;
   background-color: none;
 }
-.cardMovieList{
+.cardMovieList {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 1000px;
 }
-.card{
+.card {
   margin: 0 auto;
   /* background-color: red; */
   max-width: 1000px;
@@ -72,28 +72,35 @@ button {
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-img{
+img {
   width: 100%;
 }
-.avrgRating-red{
+.avrgRating-red {
   color: red;
 }
-.avrgRating-green{
+.avrgRating-green {
   color: green;
 }
-.cardTextFormat{
+.cardTextFormat {
   display: flex;
   align-self: flex-start;
   flex-direction: column;
   justify-content: left;
   text-align: left;
 }
-h4{
+h4 {
   margin: 7px 0;
 }
-h2{
+h2 {
   margin-bottom: 0;
 }
-button:hover{
+button:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .myInput {
+    max-width: 365px;
+    font-size: 1.5em;
+  }
 }
